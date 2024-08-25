@@ -1,0 +1,224 @@
+.light {
+  .navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 15px 7%;
+  }
+  .logo {
+    width: 160px;
+    cursor: pointer;
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
+  }
+  .link {
+    display: flex;
+    gap: 2rem;
+
+    a {
+      text-decoration: none;
+      color: #333;
+      transition: 0.3s;
+
+      &:hover {
+        color: #8a4baf;
+      }
+    }
+  }
+  .toggle-id {
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+  }
+  .search-box {
+    display: flex;
+    align-items: center;
+    background: #242424;
+    padding: 10px 20px;
+    border-radius: 50px;
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
+  }
+  .search-box input {
+    padding: 6px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 18px;
+    max-width: 200px;
+  }
+  .search-box input::placeholder {
+    color: white;
+  }
+  .search-box img {
+    width: 20px;
+    cursor: pointer;
+  }
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(0, 0, 0);
+  }
+  @media (max-width: 1182px) {
+    .hamburger {
+      display: block;
+    }
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+    .link {
+      z-index: 1;
+      position: absolute;
+      padding: 100px 50px;
+      left: -100%;
+      top: 70px;
+      gap: 0;
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(255, 246, 246);
+      color: white;
+      backdrop-filter: blur(32px);
+      width: 100%;
+      transition: 0.3s;
+    }
+    .navitem {
+      display: block;
+      margin: 16px 0;
+      color: white;
+    }
+    .link.active {
+      left: 0;
+    }
+  }
+}
+.dark {
+  .navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(0, 0, 0);
+    padding: 15px 7%;
+  }
+  .logo {
+    width: 160px;
+    cursor: pointer;
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
+  }
+  .link {
+    display: flex;
+    gap: 2rem;
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+      transition: 0.3s;
+
+      &:hover {
+        color: #8a4baf;
+      }
+    }
+  }
+  .toggle-id {
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+  }
+  .search-box {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
+  }
+  .search-box input {
+    padding: 6px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    max-width: 200px;
+  }
+  .search-box input::placeholder {
+    color: rgb(0, 0, 0);
+  }
+  .search-box img {
+    width: 20px;
+    cursor: pointer;
+  }
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(255, 255, 255);
+  }
+  @media (max-width: 1182px) {
+    .hamburger {
+      display: block;
+    }
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+    .link {
+      z-index: 1;
+      position: absolute;
+      padding: 100px 50px;
+      left: -100%;
+      top: 70px;
+      gap: 0;
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(0, 0, 0);
+      color: rgb(0, 0, 0);
+      backdrop-filter: blur(32px);
+      width: 100%;
+      transition: 0.3s;
+    }
+    .navitem {
+      display: block;
+      margin: 16px 0;
+      color: rgb(0, 0, 0);
+    }
+    .link.active {
+      left: 0;
+    }
+  }
+}

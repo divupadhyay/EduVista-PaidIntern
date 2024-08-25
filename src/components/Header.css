@@ -1,0 +1,110 @@
+.light .headers {
+  background-color: #bbe7eb;
+  padding: 20px 0;
+  text-align: center;
+
+  .headers-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+    .header-card {
+      background-color: rgb(199, 144, 199);
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      border: 2px solid black;
+      padding: 20px;
+      border-radius: 10px;
+      width: 400px;
+      height: 200px;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      @media (max-width: 768px) {
+        width: 80%;
+        text-align: center;
+      }
+
+      .message {
+        font-size: 16px;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      .info {
+        text-align: center;
+      }
+
+      .name {
+        font-size: 25px;
+        font-weight: bold;
+        color: #010101;
+        margin-bottom: 5px;
+      }
+      button {
+        background-color: rgb(198, 125, 125);
+        color: rgb(0, 0, 0);
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 7px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.dark .headers {
+  background-color: hsl(0, 0%, 35%);
+  padding: 20px 0;
+  text-align: center;
+
+  .headers-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+    .header-card {
+      background-color: rgb(199, 144, 199);
+      box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.1);
+      border: 2px solid white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 400px;
+      height: 200px;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      @media (max-width: 768px) {
+        width: 80%;
+        text-align: center;
+      }
+
+      .message {
+        font-size: 16px;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      .info {
+        text-align: center;
+      }
+
+      .name {
+        font-size: 25px;
+        font-weight: bold;
+        color: #010101;
+        margin-bottom: 5px;
+      }
+      button {
+        background-color: rgb(198, 125, 125);
+        color: rgb(0, 0, 0);
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 7px;
+        cursor: pointer;
+      }
+    }
+  }
+}

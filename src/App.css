@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  min-height: 100vh;
+  background: rgb(255, 255, 255);
+  transition: 0.5s;
+}

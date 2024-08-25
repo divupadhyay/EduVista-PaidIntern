@@ -1,0 +1,171 @@
+.light .home {
+  padding: 150px 0;
+  padding-left: 180px;
+  color: black;
+  position: relative;
+
+  .home-content {
+    max-width: 800px;
+    margin: 20;
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      font-family: "Poppins";
+
+      @media (max-width: 768px) {
+        font-size: 28px;
+      }
+    }
+    span {
+      color: #510c42;
+    }
+
+    h4 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+      @media (max-width: 768px) {
+        font-size: 28px;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      color: #383838;
+      margin-bottom: 40px;
+      justify-content: center;
+
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
+    }
+
+    button {
+      padding: 12px 24px;
+    }
+  }
+  img {
+    position: absolute;
+    right: 60px;
+    bottom: -240px;
+  }
+}
+.light .separation {
+  height: 5px;
+  background-color: white;
+}
+
+.dark .home {
+  background-color: hsl(0, 0%, 48%);
+  padding: 150px 0;
+  padding-left: 180px;
+  color: white;
+  position: relative;
+
+  .home-content {
+    max-width: 800px;
+    margin: 0;
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      font-family: "Poppins";
+
+      @media (max-width: 768px) {
+        font-size: 28px;
+      }
+    }
+    span {
+      color: #510c42;
+    }
+    h4 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+      @media (max-width: 768px) {
+        font-size: 28px;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      color: #510c42;
+      margin-bottom: 40px;
+
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
+    }
+
+    button {
+      padding: 12px 24px;
+    }
+  }
+  img {
+    position: absolute;
+    right: 60px;
+    bottom: -240px;
+  }
+}
+.dark .separation {
+  height: 5px;
+  background-color: black;
+}
+.light .home-main {
+  background-color: #bbe7eb;
+  padding: 30px 0;
+  position: relative;
+  color: black;
+
+  .home-main-content {
+    text-align: center;
+
+    p {
+      font-size: 18px;
+      color: #510c42;
+      margin-bottom: 40px;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
+    }
+  }
+  img {
+    position: inherit;
+    bottom: 90px;
+  }
+}
+img {
+  margin-left: 20px;
+  text-align: left;
+}
+.dark .home-main {
+  background-color: hsl(0, 0%, 35%);
+  padding: 30px 0;
+  position: relative;
+  color: white;
+
+  .home-main-content {
+    text-align: center;
+
+    p {
+      font-size: 18px;
+      color: #40ff00;
+      margin-bottom: 40px;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
+    }
+  }
+
+  img {
+    position: inherit;
+    bottom: 90px;
+  }
+}
