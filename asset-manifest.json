@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/EduVista-PaidIntern/static/css/main.f2089ccc.css",
+    "main.js": "/EduVista-PaidIntern/static/js/main.11652a59.js",
+    "static/media/vid1.mp4": "/EduVista-PaidIntern/static/media/vid1.fe002f50011feefa4c49.mp4",
+    "static/media/abo1.jpg": "/EduVista-PaidIntern/static/media/abo1.1823c967a5848fc70a25.jpg",
+    "static/media/women.png": "/EduVista-PaidIntern/static/media/women.00520e64df6ff81aac2b.png",
+    "static/media/heads.png": "/EduVista-PaidIntern/static/media/heads.96337ee85099ab326993.png",
+    "static/media/class51.png": "/EduVista-PaidIntern/static/media/class51.8da2cd793a27bfb390f9.png",
+    "static/media/class21.png": "/EduVista-PaidIntern/static/media/class21.a4ebf9c48a6858ef8478.png",
+    "static/media/class3.jpg": "/EduVista-PaidIntern/static/media/class3.d4c58ebdce9afe7a4e92.jpg",
+    "static/media/lwe1.png": "/EduVista-PaidIntern/static/media/lwe1.771ce2bb83656bd45762.png",
+    "static/media/abo.jpg": "/EduVista-PaidIntern/static/media/abo.dbc49c513e6733f921b4.jpg",
+    "static/media/about.png": "/EduVista-PaidIntern/static/media/about.3f36bcb16fae44e434c1.png",
+    "static/media/1.png": "/EduVista-PaidIntern/static/media/1.874397f78736cee80701.png",
+    "static/media/class1.jpg": "/EduVista-PaidIntern/static/media/class1.bf70ed75ba15ed5ec083.jpg",
+    "static/media/class4.webp": "/EduVista-PaidIntern/static/media/class4.c76cec1266648552840f.webp",
+    "static/media/cert1.png": "/EduVista-PaidIntern/static/media/cert1.23b0f07c454b76bb0d53.png",
+    "static/media/bg.jpg": "/EduVista-PaidIntern/static/media/bg.766a0b1704f25ca051c3.jpg",
+    "static/media/oc.webp": "/EduVista-PaidIntern/static/media/oc.a68965a37d681b6c311d.webp",
+    "index.html": "/EduVista-PaidIntern/index.html",
+    "main.f2089ccc.css.map": "/EduVista-PaidIntern/static/css/main.f2089ccc.css.map",
+    "main.11652a59.js.map": "/EduVista-PaidIntern/static/js/main.11652a59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2089ccc.css",
+    "static/js/main.11652a59.js"
+  ]
+}
