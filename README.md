@@ -23,3 +23,5 @@ Feel free to modify this description to better suit your needs.
 
 
 Online Learning Platform for Classes 1-12 and Competitive Exams (JEE, NEET, NDA, CA). Built with ReactJS, featuring dark/light mode and a range of courses. Empowering young minds, one lesson at a time.
+
+![proj8](https://github.com/user-attachments/assets/b63b4330-6636-420b-b0a0-c3eb962a7751)
